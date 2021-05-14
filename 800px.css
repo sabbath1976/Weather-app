@@ -1,0 +1,11 @@
+/* Weather Temps Container */
+.weather__temps {
+    flex-direction: column;
+}
+
+/* Weather Temps Days */
+.weather__temps > div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
